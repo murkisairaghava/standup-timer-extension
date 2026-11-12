@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Standby Timer",
+  "version": "1.0.0",
+  "description": "Lightweight standup timer for person-based and story-based updates.",
+  "minimum_chrome_version": "114",
+  "permissions": [
+    "sidePanel",
+    "storage"
+  ],
+  "action": {
+    "default_title": "Open Standby Timer"
+  },
+  "side_panel": {
+    "default_path": "index.html"
+  },
+  "background": {
+    "service_worker": "service-worker.js"
+  }
+}
