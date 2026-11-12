@@ -12,6 +12,7 @@ Standby Timer supports both **person-based** and **story-based** standups, track
 
 ### 👥 Person mode
 
+Person mode starts with an empty engineer list. Add your team members under Manage engineers. The list is stored locally in your browser for future standups.
 - Select the engineer currently speaking
 - Start, pause, reset, and save speaking time
 - Record multiple updates for the same engineer
